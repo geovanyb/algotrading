@@ -1,0 +1,19 @@
+<div class="sidebar well">
+{{ site.description }}
+<a href="https://github.com/geovanyb" target=_blank><img src="{{site.baseurl}}/icons/github.png" alt="drawing" width=30px></img></a>
+<a href="https://youtube.com/channel/UCWFZlOewHhP8RmN4tK8j3DA?view_as=subscriber" target=_blank><img src="{{site.baseurl}}/icons/youtube.png" alt="drawing" width=30px></img></a>
+<a href="https://www.linkedin.com/in/geovany-araujo-borges" target=_blank><img src="{{site.baseurl}}/icons/linkedin.png" alt="drawing" width=30px></img></a>
+</div>
+
+<div class="sidebar well">
+    <h1>Postagens recentes</h1>
+    <ul>
+        {% for post in site.posts limit:5 %}
+          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="sidebar well">
+{% include links-list.html %}
+</div>
