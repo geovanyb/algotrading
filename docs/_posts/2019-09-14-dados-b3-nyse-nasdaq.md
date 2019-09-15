@@ -65,8 +65,8 @@ Para as maiores bolsas do mundo, há algumas fontes de dados diários gratuitas,
 
 ### 4. Scripts em Python
 
-No repositório deste blog foi disponibilizado [código em Python para baixar dados](https://github.com/geovanyb/algotrading/code/cotacoes) das bases citadas acima e armazenar na forma de arquivos .CSV em pasta local. 
-Uma descrição dos scripts é apresentada no arquivo [README.md](https://github.com/geovanyb/algotrading/code/cotacoes/README.md).
+No repositório deste blog foi disponibilizado [código em Python para baixar dados](https://github.com/geovanyb/algotrading/tree/master/code/cotacoes) das bases citadas acima e armazenar na forma de arquivos .CSV em pasta local. 
+Uma descrição dos scripts é apresentada no arquivo [README.md](https://github.com/geovanyb/algotrading/tree/master/code/cotacoes/README.md).
 
 Arquivos CSV são facilmente importáveis em programas proprietários ou em códigos próprios, apesar de serem pouco eficientes em termos de espaço em disco.
   
